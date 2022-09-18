@@ -14,10 +14,10 @@ var filePath, searchString, output string
 // Reads program flags
 // input || i, output || o, search || s
 func readFlags() {
-	flag.StringVar(&filePath, "input", "dictionary.txt", "Input file for dictionary")
-	flag.StringVar(&filePath, "i", "dictionary.txt", "Input file for dictionary [short form]")
-	flag.StringVar(&output, "output", "output.txt", "Output file for closest words")
-	flag.StringVar(&output, "o", "output.txt", "Output file for closest words [short form]")
+	flag.StringVar(&filePath, "input", "./examples/dictionary.txt", "Input file for dictionary")
+	flag.StringVar(&filePath, "i", "./examples/dictionary.txt", "Input file for dictionary [short form]")
+	flag.StringVar(&output, "output", "./examples/output.txt", "Output file for closest words")
+	flag.StringVar(&output, "o", "./examples/output.txt", "Output file for closest words [short form]")
 	flag.StringVar(&searchString, "search", "", "Search string")
 	flag.StringVar(&searchString, "s", "", "Search string [short form]")
 
