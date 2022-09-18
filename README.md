@@ -1,5 +1,5 @@
 # Trie Demo
-Demo trie project to find closest words to search
+Demo trie project to find closest words to search string
 
 ## Inputs
 - input -> Input dictionary, txt file with a word each line
