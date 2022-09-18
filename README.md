@@ -1,8 +1,6 @@
 # Trie Demo
 Demo trie project to find closest words to search
 
-===
-
 ## Inputs
 - input -> Input dictionary, txt file with a word each line
   - i
