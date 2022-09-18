@@ -4,9 +4,15 @@ Demo trie project to find closest words to search
 ===
 
 ## Inputs
-- input
--- i -> Input dictionary, txt file with a word each line
-- output
--- o -> Output file to write response
-- search
--- s -> First word or letters to search in dictionary
+- input -> Input dictionary, txt file with a word each line
+  - i
+- output -> Output file to write response
+  - o
+- search -> First word or letters to search in dictionary
+  - s
+  
+### Run project
+
+```bash
+go run . -i <INPUT_FILE> -o <OUTPUT_FILE> -s <SEARCH_LETTERS>
+```
